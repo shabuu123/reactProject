@@ -1,0 +1,84 @@
+.contact .title{
+    color: #14bf98;
+    font:500 "Montserrat",sans-serif;
+    margin-top: 4rem;
+    margin-bottom:0.5rem;
+}
+
+.contact h1{
+    color: #484a46;
+    margin-bottom:1rem;
+    font-weight: 700;
+    font-family:"Montserrat",sans-serif ;
+    text-align: left;
+}
+
+.flwAria{
+    color:#484a46;
+    font-weight: 700;
+    font-family: "Montserrat",sans-serif;
+}
+
+.contact .contactPara{
+    color:#787976;
+    font-weight: 400;
+    font-family: "Open Sans",sans-serif;
+    text-align: left;
+}   
+
+.form2{
+  margin-top: 4%;
+}
+ 
+.form2 .form2-input{
+    border: 1px solid #a1a1a1;
+    display: block;
+    width: 100%;
+    padding-top: 1.27rem;
+    padding-bottom: 0.27rem;
+    padding-left: 1.3127rem;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    color: #787976;
+    font: 400 0.875rem/1.375rem "Open Sans",sans-serif;
+    font-size:1rem;
+}
+
+.form2 .form2-inputMsg{
+    display: block;
+    width: 100%;
+    height:8rem;
+    padding-top:1.25rem;
+    padding-left:1.3125rem;
+    border: 1px solid #dadada;
+    border-radius:0.25rem;
+    background-color: 0.25rem;
+    color: #787976;
+    font-size: 1rem;
+    font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+}
+
+.div22nd p{
+    color: #787976; 
+}
+
+.locationDiv{
+    display:flex;
+}
+
+.numberSvg p{
+    color:#787976;
+}
+
+.numberDiv{
+   display: flex;
+}
+
+.contactDiv{
+    display: flex;
+    gap: 12%;
+}   
+.contact{
+ margin-left: 20%
+}
+

@@ -1,0 +1,28 @@
+.para{
+    color: black;
+}
+
+.hexagon-div h2{
+    color: #484a46;
+    font: 700 1.25rem/1.625rem "Montserrat",sans-serif;
+    /* margin-bottom:20%; */
+    text-align: left;
+  }
+  
+  .hexagon-div p{
+    color: #787976;
+    font: 400 1rem/1.5625rem "Open Sans",sans-serif;
+    text-align: left;
+    width: 70%;
+  }
+  
+  .hexagon-div svg{
+    margin-bottom: -3rem;
+  }
+
+  .hexagon-div{
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 5%;  
+  }
