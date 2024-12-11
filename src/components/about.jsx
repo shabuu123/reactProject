@@ -1,6 +1,7 @@
 import '../styling.css/about.css'
 export const About = ({image, para,heading, paragraph,listItems}) => {
     return (
+        <div>
         <div className="container">
             <div >
                 <img className="img-div" src={image} alt="" />
@@ -17,13 +18,11 @@ export const About = ({image, para,heading, paragraph,listItems}) => {
                     }
                 </ul>
             </div>
+           </div>
+           <div>
 
-            {/* <div>  */}
-               {/* <p>231 Happy Users</p> */}
-               {/* <p>121 Issues Solved</p>  */}
-               {/* <p>159 Good Review</p> */}
-             {/* </div>   */}
-        </div>
 
+           </div>
+           </div>
     )
 }

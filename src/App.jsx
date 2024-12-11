@@ -1,9 +1,10 @@
 import './App.css'
 import { Contact } from './components/contact'
-import { Footer } from './components/footer'
 import { Form } from './components/form'
+import {Footer} from './components/footer'
 import { About } from './components/about'
 import { Hexagon } from './components/hexagon'
+import { Crousel } from './components/crousel'
 function App() {
 
   return (
@@ -16,7 +17,34 @@ function App() {
         listItems={["Everything we recommend has direct positive impact", "You will become an important partner of our company"]} />
 
       <Contact />
-      <Footer />
+      <div className='crousel'>
+    <Crousel 
+      image = "img1.jpg"
+      para = "My goals for using Aria's services seemed high when I first set them but they've met them with no problems."
+      heading="Ann Black - Consultant"/>
+      <Crousel
+      image ="img2.jpg"
+      para="I purchased the Growth Accelerator service pack a few years ago and renewed the contract each year." 
+      heading="Marsha Singer - Marketer"/>
+      <Crousel
+      image = "img3.jpg"
+      para ="The guys from Aria helped with getting my business off the ground and turing into a profitable company."
+      heading="Jude Thorn - Founder"/>
+      <Crousel
+      image="img4.jpg"
+      para= "At the beginning I thought the prices are a little high for what they offer but they over deliver each and every time."
+      heading="Ronald Spice - Owner"/>
+      <Crousel
+      image="img5.jpg"
+      para="Aria's CEO personally attends client meeting and gives his feedback on business growth strategies."
+      heading="Roy Smith - Developer"/>
+      <Crousel
+      image="img6.jpg"
+      para="I recommed Aria to every business owner or growth leader that wants to take this company to the next level."
+      heading="Lindsay Rune - Manager"/>
+      </div>
+
+      <Footer/>
       <div className='hexagon-div'>
         <Hexagon
           svg={
