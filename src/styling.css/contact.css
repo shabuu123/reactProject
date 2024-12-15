@@ -82,3 +82,8 @@
  margin-left: 20%
 }
 
+svg polygon:hover{
+    fill:#14bf98;
+    background-color: #dadada;
+}
+
